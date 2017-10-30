@@ -6,3 +6,92 @@ title: Adiel Izilov
 	<h1>Hi there, I'm Adiel Izilov!</h1>
 	<p>I'm a photographer. <a href="/about">Read more about my life...</a></p>
 </div><!-- /.blurb -->
+
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+<style>
+h2 {font-family: 'Arvo', serif;	font-weight: 400; font-size: 16px; color: #333; margin: 0px;}	
+a  {text-decoration: none; }
+#sidebar    { position: relative; float: left; width: 360px;}
+#sidebar h2 { margin-left: 8px; }
+/* Space on top between categories */
+.menu    {position: relative; float: left; padding-top: 10px;}
+.menu ul {position: relative; float: left; margin: 0; padding: 0;}
+/* Center text and give space between boxes*/
+.menu li { float: left; list-style: none; font-family: 'Arvo', serif;	font-size: 13px; color: #333; line-height: 21px; margin: 4px 2px 4px 8px; }
+/* */
+.menu li a {display: block; float: left; height: 22px; color: #333; padding: 2px 7px 2px 7px;}
+.menu li a:hover { display: block; background: #888; color: #fff;}
+/* background color depending on category */	
+.ps a{background: #BCEDDC;}	
+.dr a{background: #ABDDC8;}
+.ed a{background: #97BFB0;}
+.ra a{background: #708E83;}
+/* background color of triangle depending on category */
+.category.ps::after {border-left: 13px solid #BCEDDC;}
+.category.dr::after {border-left: 13px solid #ABDDC8;}
+.category.ed::after {border-left: 13px solid #97BFB0;}
+.category.ra::after {border-left: 13px solid #708E83;}
+/* Triangletown! Places triangle at end of category divs*/
+.category::after {content: " "; position: relative; float: left; width: 0; height: 0; border-top: 13px solid transparent; border-bottom: 13px solid transparent;}	
+/* Generate new triangle on hover to match div's hover conditon */
+.category:hover::after {content: " "; position: relative; float: left; width: 0; height: 0; border-top: 13px solid transparent; border-bottom: 13px solid transparent; border-left: 13px solid #888; }
+</style>
+
+<body>
+<div id="sidebar">
+  <h2>SPLOST CATEGORIES AND PROJECTS</h2>
+  
+  <div class="menu">
+    <ul>
+    <li class="category ps"><a href="#">Public Safety</a></li>
+    </ul>
+
+    <ul>
+    <li class="project ps"><a href="#">Storm Drainage</a></li>
+    <li class="project ps"><a href="#">Street Maintenance</a></li>
+    <li class="project ps"><a href="#">GMA Lease Pool</a></li>
+    <li class="project ps"><a href="#">Public Safety Equipment</a></li>
+    <li class="project ps"><a href="#">Public Safety Other</a></li>
+    </ul>
+ </div><!-- #menu END -->
+    
+ <div class="menu">
+    <ul>
+    <li class="category dr"><a href="#">Debt Retirement</a></li>
+    </ul>
+
+    <ul>
+    <li class="project dr"><a href="#">Debt Retirement</a></li>
+    <li class="project dr"><a href="#">Bond Repayment</a></li>
+    </ul>
+  </div><!-- #menu END -->
+    
+  <div class="menu">
+    <ul>
+    <li class="category ed"><a href="#">Economic Development</a></li>
+    </ul>
+
+    <ul>
+    <li class="project ed"><a href="#">Centreplex</a></li>
+    <li class="project ed"><a href="#">Downtown Corridor</a></li>
+    </ul>
+  </div><!-- #menu END -->
+    
+  <div class="menu">
+    <ul>
+    <li class="category ra"><a href="#">Rec & Cultural Arts</a></li>
+    </ul>
+
+    <ul>
+    <li class="project ra"><a href="#">Tubman Museum</a></li>
+    <li class="project ra"><a href="#">Bowden Golf</a></li>
+    <li class="project ra"><a href="#">Rose Hill Cemetery</a></li>
+    <li class="project ra"><a href="#">Ft. Hawkins</a></li>
+    </ul>
+  </div><!-- #menu END -->  
+</div><!-- #sidebar END -->
+  </body>
+</html> 
