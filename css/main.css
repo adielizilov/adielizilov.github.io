@@ -42,6 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
+body {
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -133,4 +134,5 @@ ul.posts li {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
 }
