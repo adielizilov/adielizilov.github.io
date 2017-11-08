@@ -136,3 +136,62 @@ body {
   to {opacity: 1}
 }
 }
+
+
+ <html>
+<head>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="37548354914_b90f098d42_o.jpg">
+    <img src="37548354914_b90f098d42_o.jpg" alt="37548354914_b90f098d42_o" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="37548349344_f0d872fc7a_o.jpg">
+    <img src="37548349344_f0d872fc7a_o.jpg" alt="37548349344_f0d872fc7a_o" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="37548348674_f75c0d4d19_o.jpg">
+    <img src="37548348674_f75c0d4d19_o.jpg" alt="37548348674_f75c0d4d19_o" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="37548349224_907069fddb_o.jpg">
+    <img src="37548349224_907069fddb_o.jpg" alt="37548349224_907069fddb_o" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html> 
